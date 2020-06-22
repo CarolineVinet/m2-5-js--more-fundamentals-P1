@@ -38,6 +38,7 @@ duplicateString(reverseString("hello"));
 /* the string "hello" is passed through the reverseString function which, using the split array method, splits the string into an array of sub strings (each letter becomes a string in an array).
 The reverse method then reverses the order of the new strings in the array (o,l,l,e,h).
 The join method is then used to convert the new array back to a string which renders olleh.
+the string is then duplicated when passed through the duplicateString function, returning olleholleh.
 */
 
 // 1-4
